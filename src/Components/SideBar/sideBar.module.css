@@ -1,0 +1,39 @@
+.aside {
+    flex-basis: 25vw;
+    color: #fff;
+    text-align: left;
+    background-color: rgba(145, 13, 13, 0.8);
+}
+.imageContainer {
+    background-image: url('/Vikash-2.jpg');
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: top center;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.person {
+    text-align: center;
+}
+.person > .title {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 2px;
+}
+.person > .designation {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 2px;
+}
+.icon_container {
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .aside {
+        flex-basis: 25vh;
+    }
+}

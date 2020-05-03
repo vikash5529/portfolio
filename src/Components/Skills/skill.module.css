@@ -1,0 +1,31 @@
+.container {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 5px;
+}
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 40vw;
+    }
+}
+@media screen and (max-width: 1000px) and (orientation: portrait) {
+    .container {
+        width: 67vw;
+    }
+}
+@media screen and (max-width: 1000px) and (orientation: landscape) {
+    .container {
+        width: 67vw;
+        height: 50vh;
+    }
+    .skill{
+        margin-left: 2%;
+    }
+}

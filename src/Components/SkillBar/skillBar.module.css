@@ -1,0 +1,16 @@
+.active {
+    height: 17px;
+    width: 17px;
+    background-color: rgba(145, 13, 13, 0.8);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 3px;
+}
+.inactive {
+    height: 17px;
+    width: 17px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 3px;
+}
