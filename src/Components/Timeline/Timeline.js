@@ -9,7 +9,7 @@ const Timeline = () => {
             <span className={styles.heading}>
               Consultant at TechVerito Software Solutions LLP.
             </span>
-            <img src="/techverito.png" alt="Avatar" className={styles.avatar}/>
+            <img src="./techverito.png" alt="Avatar" className={styles.avatar}/>
             <span className={styles.date}>
               DEC,2018 - present ,Pune,Maharastra
             </span>
@@ -47,7 +47,7 @@ const Timeline = () => {
             <span className={styles.heading}>
               Software Engineer at Mphasis Ltd.
             </span>
-            <img src="/mphasis.png" alt="Avatar" className={styles.avatar}/>
+            <img src="./mphasis.png" alt="Avatar" className={styles.avatar}/>
             <span className={styles.date}>
               JULY, 2017- DEC,2018, Chennai, TamilNadu
             </span>
@@ -77,7 +77,7 @@ const Timeline = () => {
             <span className={styles.heading}>
               National Institute of Technology, Puducherry.
             </span>
-            <img src="/nitpy.jpeg" alt="Avatar" className={styles.avatar}/>
+            <img src="./nitpy.jpeg" alt="Avatar" className={styles.avatar}/>
             <span className={styles.date}>
               Bachelor of Technology in Computer Science and Engineering, July 2013 - June,
               2017
