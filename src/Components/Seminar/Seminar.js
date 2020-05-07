@@ -13,7 +13,7 @@ const Seminar = () => {
         <p className='legend'>Introduction to Reactive Programming and RxJs</p>
       </div>
       <div>
-        <img src='./ionic-seminar.jpeg' alt="Introduction to Ionic Appflow's Live Deploy feature." />
+        <img src='./ionic-sem.jpeg' alt="Introduction to Ionic Appflow's Live Deploy feature." />
         <p className='legend'> Introduction to Ionic Appflow's Live Deploy feature.</p>
       </div>
       <div>
