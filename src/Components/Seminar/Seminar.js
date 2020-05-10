@@ -1,9 +1,10 @@
 import React from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import styles from './seminar.module.css'
 const Seminar = () => {
 	return (
-    <Carousel>
+    <Carousel className={styles.container}>
       <div>
         <img src='./ngdev-seminar.jpg' alt="Organised Angular dev to prod Meetup" />
         <p className='legend'>Organised Angular dev to prod Meetup</p>
