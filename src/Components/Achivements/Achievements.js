@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './achivements.module.css';
+import Slide from 'react-reveal/Slide';
 function Achievements() {
   const achivementSource = [
     { src: './angular.png', alt: 'Angular' },
@@ -9,9 +10,11 @@ function Achievements() {
   ];
   const achievements = achivementSource.map((value) => {
     return (
-      <div key={value.alt}>
-        <img height='150px' width='260px' src={value.src} alt={value.alt} />
-      </div>
+      <Slide right>
+        <div key={value.alt}>
+          <img height='150px' width='260px' src={value.src} alt={value.alt} />
+        </div>
+      </Slide>
     );
   });
   return <div className={styles.container}>{achievements}</div>;
