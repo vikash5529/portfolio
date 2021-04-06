@@ -1,6 +1,6 @@
-import React from 'react';
-import styles from './timeline.module.css';
-import Slide from 'react-reveal/Slide';
+import React from "react";
+import styles from "./timeline.module.css";
+import Slide from "react-reveal/Slide";
 const Timeline = () => {
   return (
     <div className={styles.timeline}>
@@ -9,15 +9,49 @@ const Timeline = () => {
           <div className={styles.content}>
             <p className={styles.work}>
               <span className={styles.heading}>
+                Software Engineer at Acquia India Pvt Ltd.
+              </span>
+              <img src="./acquia.png" alt="Avatar" className={styles.avatar} />
+              <span className={styles.date}>
+                June,2020 - Present ,Pune,Maharastra
+              </span>
+            </p>
+            <ul className={styles.list}>
+              <li>Developed Modules for the App</li>
+              <li>
+                Worked with UX team to obtain and create all visual assets
+                necessary for Web site production.
+              </li>
+              <li>
+                Participates in product development in all stages including
+                planning, design, development, testing, implementation and post
+                deployment support
+              </li>
+
+              <li>
+                Collaborate with designers and back-end developers to implement
+                and improve features
+              </li>
+              <li>Writing unit tests for developed tasks</li>
+              <li>Ensuring high performance of application</li>
+            </ul>
+          </div>
+        </div>
+      </Slide>
+      <Slide right spy={document.scroll}>
+        <div className={styles.container}>
+          <div className={styles.content}>
+            <p className={styles.work}>
+              <span className={styles.heading}>
                 Consultant at TechVerito Software Solutions LLP.
               </span>
               <img
-                src='./techverito.png'
-                alt='Avatar'
+                src="./techverito.png"
+                alt="Avatar"
                 className={styles.avatar}
               />
               <span className={styles.date}>
-                DEC,2018 - present ,Pune,Maharastra
+                DEC,2018 - June,2020, Pune,Maharastra
               </span>
             </p>
             <ul className={styles.list}>
@@ -68,7 +102,7 @@ const Timeline = () => {
               <span className={styles.heading}>
                 Software Engineer at Mphasis Ltd.
               </span>
-              <img src='./mphasis.png' alt='Avatar' className={styles.avatar} />
+              <img src="./mphasis.png" alt="Avatar" className={styles.avatar} />
               <span className={styles.date}>
                 JULY, 2017- DEC,2018, Chennai, TamilNadu
               </span>
@@ -102,7 +136,7 @@ const Timeline = () => {
               <span className={styles.heading}>
                 National Institute of Technology, Puducherry.
               </span>
-              <img src='./nitpy.jpeg' alt='Avatar' className={styles.avatar} />
+              <img src="./nitpy.jpeg" alt="Avatar" className={styles.avatar} />
               <span className={styles.date}>
                 Bachelor of Technology in Computer Science and Engineering, July
                 2013 - June, 2017

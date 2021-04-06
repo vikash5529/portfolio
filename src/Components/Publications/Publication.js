@@ -23,6 +23,20 @@ const Publication = () => {
             >
               <li>How to keep an Observable alive after Error in Angular?</li>
             </a>
+            <a
+              rel='noopener noreferrer'
+              target='_blank'
+              href='https://medium.com/@erVikas1/angular-and-typescript-public-properties-a5a3c363b790'
+            >
+              <li>Angular and TypeScript Private Properties.</li>
+            </a>
+            <a
+              rel='noopener noreferrer'
+              target='_blank'
+              href='https://medium.com/@erVikas1/angular-passing-callback-function-to-child-component-3d482ad376ee'
+            >
+              <li>Angular passing callback function to child component</li>
+            </a>
           </ul>
         </div>
       </div>
